@@ -1,12 +1,15 @@
 {
-    "identifier": "com.gingerbeardman.OpenTaskpaper",
-    "name": "Open Taskpaper",
-    "organization": "Matt Sephton",
+    "bugs": "https://github.com/gingerbeardman/OpenTaskPaper.novaextension/issues",
     "description": "Opens the current project's todo.taskpaper in an app of your choice.",
-    "repository": "https://github.com/gingerbeardman/OpenTaskpaper.novaextension",
-    "bugs": "https://github.com/gingerbeardman/OpenTaskpaper.novaextension/issues",
+    "funding": "https://ko-fi.com/gingerbeardman",
+    "homepage": "https://www.gingerbeardman.com",
+    "identifier": "com.gingerbeardman.OpenTaskpaper",
     "license": "MIT",
-    "version": "1.0.1",
+    "name": "Open TaskPaper",
+    "organization": "gingerbeardman",
+    "repository": "https://github.com/gingerbeardman/OpenTaskPaper.novaextension",
+    "version": "1.0.2",
+
     "categories": ["commands"],
     
     "main": "main.js",
@@ -18,7 +21,7 @@
     "commands": {
         "editor": [
             {
-                "title": "Open Taskpaper app",
+                "title": "Open TaskPaper.app",
                 "command": "taskpaper.openApp"
             },
             {
